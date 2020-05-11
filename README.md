@@ -1,3 +1,8 @@
+# @pathable/inliner
+
+Fork of inliner with modifications aimed to use it a in script for the creation of static pages. The main modification is the use of puppeteer to get the root webpage, so it wait for the page to fully load before getting its contents.
+Bellow is the original readme.
+
 # Inliner
 
 Turns your web page to a single HTML file with everything inlined - perfect for appcache manifests on mobile devices that you want to reduce those http requests.

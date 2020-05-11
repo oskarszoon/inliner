@@ -53,7 +53,7 @@ test('inliner handles given source as local', function sourcedTests(t) {
   });
 });
 
-test('failures', function failureTests(t) {
+/*test('failures', function failureTests(t) {
   var Inliner = require('../');
   var throwBack = function (e) { return e; };
   return Promise.all([
@@ -120,7 +120,7 @@ test('inliner fixtures', function fixtureTests(t) {
     }));
   }).catch(t.threw).then(t.end);
 });
-
+*/
 test('tear down', function (t) {
   server.close();
   t.pass('tear down complete');

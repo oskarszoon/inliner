@@ -3,7 +3,7 @@
   "description": "Utility to inline images, CSS and JavaScript for a web page - useful for mobile sites",
   "homepage": "https://github.com/pathable/inliner",
   "main": "lib/index.js",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "scripts": {
     "cover": "tap test/*.test.js --cov --coverage-report=lcov",
     "lint": "jscs -v cli/*.js lib/*.js",
